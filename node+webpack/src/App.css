@@ -1,0 +1,27 @@
+.Tab_tittle{
+  display:inline-block;
+  margin:0;
+  width:30%;
+  text-align: center;
+  padding:5px;
+  cursor: pointer
+}
+.active{
+  color:blue;
+  border-bottom:2px solid blue;
+}
+.Tab_item{
+  display:none;
+}
+.show{
+  display:block !important;
+}
+.header{
+  height:60px;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content:space-between;
+}
+.header p{
+ padding:0 10px;
+}
